@@ -1,0 +1,52 @@
+.signup{
+    background-color:blueviolet;
+    font-weight: bolder;
+}
+
+
+/* Navbar.css */
+
+.navbar {
+    display: flex;
+    justify-content: space-between; /* Distribute space between items */
+    align-items: center; /* Center items vertically */
+    padding: 0 20px; /* Adjust the padding as needed */
+    background-color: #fff; /* Background color for the navbar */
+    border-bottom: 1px solid #ddd; /* Optional: border at the bottom */
+}
+
+.logo {
+    /* Style for logo */
+    width: 100px; /* Adjust width as needed */
+    height: 50px; /* Adjust height as needed */
+    background-color: #eee; /* Background color for logo */
+}
+
+.nav-links {
+    list-style: none; /* Remove default list styling */
+    display: flex; /* Align links horizontally */
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin: 0 15px; /* Adjust spacing between links */
+}
+
+.auth-buttons {
+    display: flex; /* Align buttons horizontally */
+}
+
+.auth-buttons button {
+    margin-left: 10px; /* Space between buttons */
+    background-color: #e8e3f3; /* Button background color */
+    color: white; /* Button text color */
+    border: none; /* Remove default border */
+    padding: 10px 20px; /* Adjust padding */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+.auth-buttons button.signup {
+    background-color: #a936b1; /* Different color for signup button */
+}
